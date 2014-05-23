@@ -1,0 +1,5 @@
+nsq2aqora:
+  build: ./code
+  command: /bin/sh -c "/usr/bin/node /nsq2aqora/src/app.js"
+  environment:
+    NODE_ENV: production

@@ -1,0 +1,15 @@
+{
+  "name": "nsq2aqora",
+  "version": "0.0.1",
+  "author": "José Ribeiro",
+  "description": "This is the microservice responsible for storing every incoming NSQ message of sensor data on the Aqora platform.",
+
+  "private": true,
+  "main": "app.js",
+
+  "dependencies":
+  {
+    "dotenv": "0.2.4",
+    "nsq.js": "0.10.1"
+  }
+}
